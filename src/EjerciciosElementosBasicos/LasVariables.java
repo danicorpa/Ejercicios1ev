@@ -26,8 +26,13 @@ public class LasVariables {
         byte variableByteNeg = -128; // es el núnero más pequeño que puedo guardar en una variable tipo byte
         System.out.println("variableBytePos " + variableBytePos);
         System.out.println("variableByteNeg " + variableByteNeg);
-
-
+        System.out.println("Números en decimales: float o double.");
+        double decimal = 3.4;
+        double decimal2 = 3;
+        System.out.println("decimal " + decimal);
+        System.out.println("decimal 2 " + decimal2);
+        float decimalFloat = 8.43f; // si declaras una variable de tipo float ponemos una f
+        System.out.println("decimalFloat " + decimalFloat);
 
     }
 }
