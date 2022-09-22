@@ -1,0 +1,37 @@
+package VariablesYOperadores;
+
+import java.util.Scanner;
+
+public class Ejercicio03 {
+
+
+    public static void main(String[] args) {
+
+
+      /*  3. A partir de una variable num1 con valor inicial 12 y una variable num2 con valor
+        inicial 4, crear nuevas variables que almacenen el resultado de realizar la suma, resta,
+        multiplicación, división y resto de num1 y num2. Mostrar el valor de las nuevas
+        variables por pantalla.  */
+
+        int a = 12;
+        int b = 4;
+
+        int suma     = a + b;
+        System.out.println("La suma de " + a + " + " + b + " da : " + suma);
+        int resta    = a - b;
+        System.out.println("La resta de " + a + " - " + b + " da : " + resta);
+        int producto = a * b;
+        System.out.println("El producto de " + a + " * " + b + " da : " + producto);
+        int cociente = a / b;
+        System.out.println("El cociente de " + a + " / " + b + " da : " + cociente);
+        int resto    = a % b;
+        System.out.println("El resto de " + a + " % " + b + " da : " + resto);
+
+
+
+        // Crear variables que guarden el resultado de las 5 operaciones posibles
+
+
+
+    } // MAIN
+} //CLASS
