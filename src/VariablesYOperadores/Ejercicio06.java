@@ -18,7 +18,7 @@ public class Ejercicio06 {
         System.out.println("Mete el número de nueces : ");
         int k = sc.nextInt();
 
-        System.out.println("Para repartir equitativamente todas las nueces hay que dividirlas ," + (k / n) + " para cada una y sacar el resto " + (k % n) + ", en caso de que sobren." );
+        System.out.println("Para repartir equitativamente todas las nueces hay que dividirlas ," + (k % n) + " para cada una y sacar el resto " + (k / n) + ", en caso de que sobren." );
 
 
     } //MAIN
