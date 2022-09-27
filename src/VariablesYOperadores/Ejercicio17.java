@@ -15,7 +15,7 @@ variables de tipo entero y después con variables de tipo float.
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Te voy a calcular el área de un triángulo, para ello voy a necesitar que me des la base y la altura: ");
-        int base = sc.nextShort();
+        int base = sc.nextInt();
         int altura = sc.nextInt();
 
         System.out.println("El área es (base * altura )/2, donde base es: " + base + " y la altura es : "+ altura +" con int : "+ ((base*altura)/2));
