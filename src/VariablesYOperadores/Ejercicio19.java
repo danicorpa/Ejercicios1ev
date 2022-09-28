@@ -17,15 +17,15 @@ geometria-ejemplos-y-ejercicios-resueltos/ )
         Scanner sc = new Scanner(System.in);
         System.out.println("Coord x1: ");
         double x1 = sc.nextDouble();
-        System.out.println("Coord x2: ");
-        double x2 = sc.nextDouble();
         System.out.println("Coord y1: ");
         double y1 = sc.nextDouble();
+        System.out.println("Coord x2: ");
+        double x2 = sc.nextDouble();
         System.out.println("Coord y2: ");
         double y2 = sc.nextDouble();
 
-        double dist = Math.sqrt((Math.pow(x2,2)-(Math.pow(x1,2)))+(Math.pow(y2,2)-Math.pow(y1,2)));
-        System.out.println("La distencia entre x1 y x2, y1 e y2 es: " + dist);
+        double dist = Math.sqrt(Math.pow((x2-x1),2)+(Math.pow((y2-y1),2)));
+        System.out.println("La distencia entre A(" +x1+", "+x2+"), B("+y1+", "+y2+") es: " + dist);
 
 
     }

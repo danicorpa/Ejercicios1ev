@@ -13,10 +13,13 @@ public class Ejercicio11 {
         *
         * */
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un número de dos cifras: ");
+        System.out.println("Introduce un número de dos cifras y yo te lo invierto: ");
         int n = sc.nextInt();
 
-        System.out.println(n);
+        //int dec = n / 10;
+        //int uni = n % 10;
+
+        System.out.println((n%10)+""+(n/10));
 
 
     }
