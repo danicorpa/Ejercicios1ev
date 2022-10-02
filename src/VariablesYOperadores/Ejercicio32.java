@@ -13,7 +13,7 @@ public class Ejercicio32 {
         * */
 
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();// variable//
+        int num = sc.nextInt();// variable////
 
         boolean comp = num < 10 && num > 0;//
         System.out.println(comp);
