@@ -16,7 +16,7 @@ public class Ejercicio32 {
         int num = sc.nextInt();// variable////
 
         boolean comp = num < 10 && num > 0;
-        System.out.println(comp);
+        System.out.println(comp);//
 
 
 
