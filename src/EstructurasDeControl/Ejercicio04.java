@@ -16,9 +16,9 @@ Escribe el código necesario.
 
     public static void main(String[] args) {
 
-        int edad=29;
+        int edad=30;
         int nivelDeEstudios=4;
-        int ingresos=29000;
+        int ingresos=22000;
         boolean jasp;
 
         if((edad<=28 && nivelDeEstudios>3) | (edad<30 && ingresos>28000)){
