@@ -29,7 +29,9 @@ Escribe el código necesario.
             jasp = false;
             System.out.println("Eres de la generación Z!! Milenial!!");
         }
-
+        if (jasp){
+            System.out.println("Eres Joven Aunque Sobradamente Preparado!!");
+        }
 
 
 
