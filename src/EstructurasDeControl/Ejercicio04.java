@@ -19,14 +19,15 @@ Escribe el código necesario.
         int edad=29;
         int nivelDeEstudios=4;
         int ingresos=29000;
-        boolean jasp= true;
+        boolean jasp;
 
         if((edad<=28 && nivelDeEstudios>3) | (edad<30 && ingresos>28000)){
             jasp = true;
             System.out.println("Eres de mi generación!! (jasp)");
 
         }else{
-            System.out.println("Eres de la generación X!! Milenial!!");
+            jasp = false;
+            System.out.println("Eres de la generación Z!! Milenial!!");
         }
 
 
