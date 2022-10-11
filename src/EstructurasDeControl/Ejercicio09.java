@@ -21,7 +21,14 @@ public class Ejercicio09 {
         System.out.println("Mete tu password: ");
         String pass = sc.nextLine();
 
-        user.equals(usuario);
+        if(user.equals(usuario)){
+
+            System.out.println("Access Garanted!!");
+
+        }else{
+
+            System.out.println("Que te pires!!");
+        }
 
 
 
