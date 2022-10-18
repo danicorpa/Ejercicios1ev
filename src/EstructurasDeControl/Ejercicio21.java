@@ -37,7 +37,7 @@ public class Ejercicio21 {
 
         String topping = sc.nextLine();
 
-        case(topping){
+        /*case(topping){
             case "sin"     -> System.out.println("Precio  1,90€");
             case "oreo"    -> System.out.println("Precio  1€");
             case "kitkat"  -> System.out.println("Precio  1,50€");
@@ -45,7 +45,7 @@ public class Ejercicio21 {
 
 
         };
-
+*/
 
     }
 }
