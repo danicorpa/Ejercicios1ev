@@ -16,7 +16,7 @@ public class Ejercicio30 {
         System.out.println("La suma de los 30 primeros numeros naturales es: ");
         for(int i = 1;i < 31;i++){
 
-            suma += 1;
+            suma += i;
 
         }
         System.out.println(suma);
