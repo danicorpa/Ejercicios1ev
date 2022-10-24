@@ -13,7 +13,7 @@ public class Ejercicio22 {
 
         for(int i = 531;i <= 540;i++){
 
-            System.out.print(i +" ");
+            System.out.println(i +" ");
 
         }
 
